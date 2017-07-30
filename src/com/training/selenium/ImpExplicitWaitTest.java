@@ -38,7 +38,7 @@ public class ImpExplicitWaitTest {
 		wait.until(ExpectedConditions.elementToBeClickable((By.cssSelector("div[aria-label='Google apps'] a[href='https://mail.google.com/mail/?tab=wm']"))));
 		
 		driver.findElement(By.cssSelector("div[aria-label='Google apps'] a[href='https://mail.google.com/mail/?tab=wm']")).click();
-	  			 
+	  	
 		
 		driver.close();
 
