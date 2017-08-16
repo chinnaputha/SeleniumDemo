@@ -26,7 +26,7 @@ public class AutoItTest {
 		
 		
 		// maximize the window
-		Runtime.getRuntime().exec("C:\\Users\\UC202376\\Documents\\Code\\Repo\\FileuploadAutoIt.exe");
+		Runtime.getRuntime().exec("src\\autoit\\FileuploadAutoIt.exe");
 		
 	//	driver.findElement(By.cssSelector("input[name='uploaded_file']")).sendKeys("C:\\Users\\Public\\Pictures\\Sample Pictures\\Chrysanthemum.jpg");
 		Thread.sleep(4000);
