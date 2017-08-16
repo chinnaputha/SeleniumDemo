@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample" parallel="tests" thread-count="4">
+
+
+  <test name="googleTest">
+  <parameter name="searchName" value="sel"></parameter>
+  <parameter name="searchFullname" value="selenium"></parameter>
+    <classes>
+      <class name="com.training.testng.GoogleSearchSelect"/>
+    </classes>
+  </test> 
+  
+  <test name="googleTest2">
+  <parameter name="searchName" value="ja"></parameter>
+  <parameter name="searchFullname" value="java"></parameter>
+    <classes>
+      <class name="com.training.testng.GoogleSearchSelect"/>
+    </classes>
+  </test>
+  
+  
+  <test name="googleTest3">
+  <parameter name="searchName" value="py"></parameter>
+  <parameter name="searchFullname" value="python"></parameter>
+    <classes>
+      <class name="com.training.testng.GoogleSearchSelect"/>
+    </classes>
+  </test> 
+  
+  <test name="googleTest4">
+  <parameter name="searchName" value="ru"></parameter>
+  <parameter name="searchFullname" value="ruby"></parameter>
+    <classes>
+      <class name="com.training.testng.GoogleSearchSelect"/>
+    </classes>
+  </test>
+
+  
+  
+</suite> <!-- Sample -->
